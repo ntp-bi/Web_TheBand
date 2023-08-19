@@ -1,0 +1,75 @@
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px){
+    .btn{
+        padding: 15px 16px;
+    }
+    .socials-list{
+        font-size: 48px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    #nav > li{
+        display: block; /* để hiển thị theo chiều dọc */
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #header{
+        overflow: hidden;
+    /* overflow khi đối tượng con của nó bị vượt quá nó thì hidden: là ẩn đi */
+    }
+
+    #nav .subnav{
+        position: initial;/* initial: reset về giá trị mặc định */
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    #content .place-item{
+        width: 100%;
+    }
+}
